@@ -85,22 +85,64 @@ Collected datasets relating to:
 - Imported data into PostgreSQL
 - Standardised spatial attributes
 
-### 3. Geospatial Analysis
-Performed:
+### 3. Spatial Analysis
+
+Using PostgreSQL and PostGIS, the following analyses were performed:
+
 - Population density analysis
 - Charging station distribution analysis
+- Buffer analysis around existing charging stations
 - Coverage gap identification
-- Buffer analysis
-- Grid-based spatial analysis
+- Spatial joins and intersection analysis
+- Traffic accessibility analysis
+- Demand scoring
 
-### 4. Site Selection
-Identified candidate locations for new charging stations using:
-- Population demand
-- Accessibility
-- Existing infrastructure coverage
-- Traffic patterns
+QGIS was used to visualise the analysis results and create thematic maps for interpretation and presentation.
+
+### 4. Demand Modelling
+
+A demand scoring framework was developed by combining:
+
+* Traffic volume
+* Population density
+* EV ownership indicators
+
+Demand Score = Traffic Volume × Population Density × EV Ownership
+
+This approach helped identify areas with the highest potential demand for EV charging infrastructure.
+
+### 5. Location Optimization
+
+Advanced PostGIS spatial techniques were used to recommend new charging station locations, including:
+
+* Buffer analysis around existing charging stations
+* Coverage gap identification
+* Spatial joins and intersection analysis
+* Traffic accessibility analysis
+* K-Means clustering for candidate site generation
+
+The final recommended charging station locations were selected based on demand, accessibility, and existing infrastructure coverage.
+
 
 ---
+## Advanced Geospatial Analysis
+
+The project used PostgreSQL and PostGIS to perform advanced spatial analytics and optimization.
+
+Key techniques included:
+
+- Spatial joins
+- Buffer analysis
+- Coverage gap identification
+- Traffic demand modelling
+- Population density analysis
+- Income-based demand analysis
+- K-Means clustering
+- Demand scoring
+- Candidate site optimization
+
+By integrating demographic, transportation, and infrastructure datasets, the project identified underserved regions and proposed optimal charging station locations to improve accessibility and support EV adoption.
+
 
 ## Key Findings
 
