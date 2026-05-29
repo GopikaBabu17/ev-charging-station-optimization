@@ -78,6 +78,7 @@ Collected datasets relating to:
 - Road networks
 - Traffic flow
 - Existing EV charging stations
+- Income
 
 ### 2. Data Preparation
 - Cleaned and validated datasets
