@@ -109,6 +109,7 @@ A demand scoring framework was developed by combining:
 
 Demand Score = Traffic Volume × Population Density × EV Ownership
 
+
 This approach helped identify areas with the highest potential demand for EV charging infrastructure.
 
 ### 5. Location Optimization
