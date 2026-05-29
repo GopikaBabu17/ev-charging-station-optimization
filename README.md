@@ -45,13 +45,27 @@ The objective was to identify locations where new charging stations would provid
 ## Data Sources
 
 ### Population Data
+- Population statistics by ZIP code
+- Demographic information
+
+### Income Data
+- Household income data by geographic area
+
+### Transportation Data
+- Road network data
+- Traffic flow data
+
+### EV Infrastructure Data
+- Existing EV charging station locations
+
+### Geographic Data
+- ZIP code boundaries
+- Administrative boundaries
+
+Sources:
 - DataSF Open Data Portal
-
-### Traffic & Road Network Data
 - OpenStreetMap / Overpass Turbo
-
-### EV Charging Infrastructure Data
-- Public EV charging station datasets
+- Public EV Charging Infrastructure Data
 
 ---
 
